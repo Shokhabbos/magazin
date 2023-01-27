@@ -1,16 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./assets/styles/main.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/icons/heart-icon.svg"
+      type="image/x-icon" />
     <title>Cooper pro</title>
   </head>
   <body>
-    <div class="container mx-auto px-4">
-      <h1 class="heading">Hello world</h1>
-    </div>
+    <!-- Start Header Section -->
+    <header class="header bg-[#50d71e]">
+      <div class="container mx-auto px-4 flex items-center justify-between mt-10">
+        <div class="header__left">
+          <a href="#"
+            ><img
+              src="./assets/images/icons/site-logo.svg"
+              alt="Site Logo"
+              class="header__img"
+              width="160"
+              height="43"
+          /></a>
+        </div>
+        <nav>
+          <ul class="flex">
+            <li class="mx-2"><a href="#" class="font-semibold not-italic leading-4 text-[white] text-center p-4">Каталог</a></li>
+            <li class="mx-2"><a href="#" class="font-semibold not-italic leading-4 text-[white] text-center p-4">Новости</a></li>
+            <li class="mx-2"><a href="#" class="font-semibold not-italic leading-4 text-[white] text-center p-4">Доставка</a></li>
+            <li class="mx-2"><a href="#" class="font-semibold not-italic leading-4 text-[white] text-center p-4">О нас</a></li>
+            <li class="mx-2"><a href="#" class="font-semibold not-italic leading-4 text-[white] text-center p-4">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="header__right">
+          <button class="pt-[40px] bg-[white] ml-5 px-3">
+            <a href="#"
+              ><img
+                src="./assets/images/icons/heart-icon.svg"
+                alt="Heart Icon"
+                width="30"
+                height="30"
+            /></a>
+          </button>
+          <button class="pt-[40px] bg-[white] ml-5 px-3">
+            <a href="#"
+              ><img
+                src="./assets/images/icons/user-icon.svg"
+                alt="User Icon"
+                width="30"
+                height="30"
+            /></a>
+          </button>
+          <button class="pt-[40px] bg-[white] ml-5 px-3">
+            <a href="#"
+              ><img
+                src="./assets/images/icons/shopping-cart-icon.svg"
+                alt="Shopping Cart Icon"
+                width="30"
+                height="30"
+            /></a>
+          </button>
+        </div>
+      </div>
+    </header>
+    <!-- End Header Section -->
   </body>
 </html>
